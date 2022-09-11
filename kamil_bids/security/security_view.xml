@@ -1,0 +1,22 @@
+<odoo>
+	<data>
+		<record model="ir.module.category" id="bids_category">
+			<field name="name">الغابات والمشاتل</field>
+			<field name="sequence">1</field>
+			<field name="users" eval="[(4, ref('base.user_admin'))]"/>
+		</record>
+		<record id="bids_manager" model="res.groups">
+			<field name="name">مدير</field>
+			<field name="category_id" ref="bids_category"/>
+			<field name="users" eval="[(4, ref('base.user_admin'))]"/>
+		</record>
+
+		<record id="bids_employee" model="res.groups">
+			<field name="name">موظف</field>
+			<field name="category_id" ref="bids_category"/>
+			<field name="users" eval="[(4, ref('base.user_admin'))]"/>
+		</record>
+
+
+	</data>
+</odoo>

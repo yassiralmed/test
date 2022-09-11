@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+
+		<record id="kamil_bid_view" model="ir.sequence">
+			<field name="name">Kamil Bid Sequence</field>
+			<field name="code">kamil.bid.sequence</field>
+			<field name="prefix"> %(year)s-%(month)s-</field>
+			<field name="padding">5</field>
+			<field name="implementation">no_gap</field>
+		</record>
+
+	</data>
+</odoo>

@@ -1,0 +1,229 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* kamil_bids
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 08:18+0000\n"
+"PO-Revision-Date: 2020-12-23 08:18+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: kamil_bids
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid_line__bid_id
+#: model:ir.model.fields,field_description:kamil_bids.field_sale_order__the_bid_id
+msgid "Bid"
+msgstr "عطاء"
+
+#. module: kamil_bids
+#: model:ir.actions.act_window,name:kamil_bids.action_bids
+#: model:ir.ui.menu,name:kamil_bids.kamil_bid_menu
+#: model:ir.ui.menu,name:kamil_bids.kamil_bid_sub_menu
+msgid "Bids"
+msgstr "العطاءات"
+
+#. module: kamil_bids
+#: model_terms:ir.actions.act_window,help:kamil_bids.action_nursery
+msgid "Click To Create New Record"
+msgstr "إضغط إنشاء لانشاء سجل جديد"
+
+#. module: kamil_bids
+#: model_terms:ir.ui.view,arch_db:kamil_bids.kamil_bid_form_view
+msgid "Close"
+msgstr "إغلاق"
+
+#. module: kamil_bids
+#: selection:kamil.bid,state:0
+msgid "Closed"
+msgstr "مغلق"
+
+#. module: kamil_bids
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid__create_uid
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid_line__create_uid
+msgid "Created by"
+msgstr "أنشئ بواسطة"
+
+#. module: kamil_bids
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid__create_date
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid_line__create_date
+msgid "Created on"
+msgstr "أنشئ في"
+
+#. module: kamil_bids
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid__date
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: kamil_bids
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid__name
+msgid "Description"
+msgstr "الوصف"
+
+#. module: kamil_bids
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid__display_name
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid_line__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: kamil_bids
+#: selection:kamil.bid,state:0
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: kamil_bids
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid__forest_id
+msgid "Forest"
+msgstr "الغابة"
+
+#. module: kamil_bids
+#: model:ir.actions.act_window,name:kamil_bids.action_forest
+#: model:ir.ui.menu,name:kamil_bids.kamil_forests_menu
+msgid "Forests"
+msgstr "الغابات"
+
+#. module: kamil_bids
+#: model:ir.ui.menu,name:kamil_bids.kamil_bid_main_menu
+msgid "Forests And Nurseries"
+msgstr "الغابات والمشاتل"
+
+#. module: kamil_bids
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid__id
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid_line__id
+msgid "ID"
+msgstr "المعرف"
+
+#. module: kamil_bids
+#: model:ir.model.fields,field_description:kamil_bids.field_product_product__is_forests_product
+#: model:ir.model.fields,field_description:kamil_bids.field_product_template__is_forests_product
+msgid "Is Forests And Nurseries Product ?"
+msgstr "هل هو منتج غابات ومشاتل ؟"
+
+#. module: kamil_bids
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid_line__product_id
+msgid "Item"
+msgstr "الصنف"
+
+#. module: kamil_bids
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid____last_update
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid_line____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: kamil_bids
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid__write_uid
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid_line__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: kamil_bids
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid__write_date
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid_line__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: kamil_bids
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid__line_ids
+msgid "Line"
+msgstr "بند"
+
+#. module: kamil_bids
+#: model_terms:ir.ui.view,arch_db:kamil_bids.kamil_bid_form_view
+msgid "Lines"
+msgstr "البنود"
+
+#. module: kamil_bids
+#: model:ir.ui.menu,name:kamil_bids.kamil_master_data_menu
+msgid "Master Data"
+msgstr "البيانات الاساسية"
+
+#. module: kamil_bids
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid__note
+msgid "Note"
+msgstr "ملاحظة"
+
+#. module: kamil_bids
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid__number
+msgid "Number"
+msgstr "الرقم"
+
+#. module: kamil_bids
+#: model:ir.actions.act_window,name:kamil_bids.action_nursery
+#: model:ir.ui.menu,name:kamil_bids.kamil_nursery_menu
+msgid "Nurseries"
+msgstr "المشاتل"
+
+#. module: kamil_bids
+#: model_terms:ir.ui.view,arch_db:kamil_bids.kamil_bid_form_view
+#: selection:kamil.bid,state:0
+msgid "Open"
+msgstr "فتح"
+
+#. module: kamil_bids
+#: model:ir.model,name:kamil_bids.model_product_template
+msgid "Product Template"
+msgstr "قالب المنتج"
+
+#. module: kamil_bids
+#: model:ir.actions.act_window,name:kamil_bids.action_product
+#: model:ir.ui.menu,name:kamil_bids.kamil_product_menu
+msgid "Products"
+msgstr "المنتجات"
+
+#. module: kamil_bids
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid_line__product_quantity
+msgid "Quantity"
+msgstr "الكمية"
+
+#. module: kamil_bids
+#: model:ir.ui.menu,name:kamil_bids.kamil_bid_sales_orders_report_menu
+msgid "Reports"
+msgstr "التقارير"
+
+#. module: kamil_bids
+#: model:ir.model,name:kamil_bids.model_sale_order
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid__sale_order_ids
+msgid "Sale Order"
+msgstr "أمر البيع"
+
+#. module: kamil_bids
+#: model:ir.actions.act_window,name:kamil_bids.action_bid_sale_orders
+#: model:ir.ui.menu,name:kamil_bids.kamil_bid_sales_orders_menu
+msgid "Sale Orders"
+msgstr "أوامر البيع"
+
+#. module: kamil_bids
+#: model_terms:ir.ui.view,arch_db:kamil_bids.kamil_bid_form_view
+msgid "Sales Orders"
+msgstr "أوامر البيع"
+
+#. module: kamil_bids
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid__state
+msgid "State"
+msgstr "الحالة"
+
+#. module: kamil_bids
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid_line__product_uom_id
+msgid "Unit Of Measure"
+msgstr "وحدة القياس"
+
+#. module: kamil_bids
+#: model:ir.model.fields,field_description:kamil_bids.field_kamil_bid_line__price
+msgid "initial price"
+msgstr "السعر المبدئي"
+
+#. module: kamil_bids
+#: model:ir.model,name:kamil_bids.model_kamil_bid
+msgid "kamil.bid"
+msgstr ""
+
+#. module: kamil_bids
+#: model:ir.model,name:kamil_bids.model_kamil_bid_line
+msgid "kamil.bid.line"
+msgstr ""
+
